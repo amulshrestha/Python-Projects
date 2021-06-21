@@ -39,7 +39,7 @@ print('Your Ip Address is: ' + host_ip)
 #Fetching the IP of the website
 ip = socket.gethostbyname(site)
 
-#display the IP
+#Displaying IP of the Website
 print('The IP Address of ' + site + ' is: '  + ip)
 print("""
  _____ _                 _
