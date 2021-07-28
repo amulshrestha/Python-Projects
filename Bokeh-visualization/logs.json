@@ -1,0 +1,147 @@
+{
+  "took" : 0,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 8,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "application-information",
+        "_type" : "_doc",
+        "_id" : "X1wWLXoBkuIAQqTtHlMY",
+        "_score" : 1.0,
+        "_source" : {
+          "date" : "2021-06-21",
+          "application" : {
+            "Brave Browser" : 2,
+            "Visual Studio Code" : 2
+          },
+          "user" : "saksham"
+        }
+      },
+      {
+        "_index" : "application-information",
+        "_type" : "_doc",
+        "_id" : "c1yFPXoBkuIAQqTt91No",
+        "_score" : 1.0,
+        "_source" : {
+          "date" : "2021-06-23",
+          "application" : {
+            "Brave Browser" : 6,
+            "Visual Studio Code" : 2
+          },
+          "user" : "saksham"
+        }
+      },
+      {
+        "_index" : "application-information",
+        "_type" : "_doc",
+        "_id" : "eVyoPXoBkuIAQqTtoVO6",
+        "_score" : 1.0,
+        "_source" : {
+          "date" : "2021-06-24",
+          "application" : {
+            "VisualStudioCode" : 2,
+            "BraveBrowser" : 2
+          },
+          "user" : "saksham"
+        }
+      },
+      {
+        "_index" : "application-information",
+        "_type" : "_doc",
+        "_id" : "aVxGPXoBkuIAQqTt61Nt",
+        "_score" : 1.0,
+        "_source" : {
+          "date" : "2021-06-22",
+          "application" : {
+            "Visual Studio Code" : 2,
+            "VisualStudioCode" : 2,
+            "BraveBrowser" : 12,
+            "Brave Browser" : 3
+          },
+          "user" : "saksham"
+        }
+      },
+      {
+        "_index" : "application-information",
+        "_type" : "_doc",
+        "_id" : "hFy9QnoBkuIAQqTtJ1Oo",
+        "_score" : 1.0,
+        "_source" : {
+          "date" : "2021-06-25",
+          "application" : {
+            "VisualStudioCode" : 10,
+            "BraveBrowser" : 410
+          },
+          "idletime" : 108,
+          "user" : "saksham"
+        }
+      },
+      {
+        "_index" : "application-information",
+        "_type" : "_doc",
+        "_id" : "hlwHSHoBkuIAQqTtIlMD",
+        "_score" : 1.0,
+        "_source" : {
+          "date" : "2021-06-26",
+          "application" : {
+            "VisualStudioCode" : 188,
+            "VMwareWorkstation" : 186,
+            "BraveBrowser" : 186,
+            "Discord" : 184,
+            "Spotify" : 12
+          },
+          "idletime" : 10,
+          "user" : "amul"
+        }
+      },
+      {
+        "_index" : "application-information",
+        "_type" : "_doc",
+        "_id" : "h1xxS3oBkuIAQqTtulM4",
+        "_score" : 1.0,
+        "_source" : {
+          "date" : "2021-06-27",
+          "application" : {
+            "VisualStudioCode" : 316,
+            "BraveBrowser" : 478,
+            "Discord" : 94
+          },
+          "idletime" : 126,
+          "user" : "saksham"
+        }
+      },
+      {
+        "_index" : "application-information",
+        "_type" : "_doc",
+        "_id" : "iFzkS3oBkuIAQqTtylMk",
+        "_score" : 1.0,
+        "_source" : {
+          "date" : "2021-06-27",
+          "application" : {
+            "GoogleChrome" : 104,
+            "VMwareWorkstation" : 102,
+            "TeamViewer" : 20,
+            "BraveBrowser" : 112,
+            "WindowsCommandProcessor" : 112,
+            "Brave Browser" : 2,
+            "Discord" : 114,
+            "Windows Command Processor" : 2
+          },
+          "idletime" : 0,
+          "user" : "amul"
+        }
+      }
+    ]
+  }
+}
